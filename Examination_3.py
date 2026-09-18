@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("จำนวนทั้งหมด: "))
+if n >= 0:
+    print("Positive")
+else:
+    print("Negative")
+

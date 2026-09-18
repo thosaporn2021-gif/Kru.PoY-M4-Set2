@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-age = int(input())
+age = int(input("สิทธิ์เลือกดั้ง: "))
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
